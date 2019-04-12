@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import { AppRegistry, StyleSheet, Text, View, Button } from 'react-native';
+import React from 'react';
+import { StyleSheet, View, Button } from 'react-native';
 
 let getColor = (isGreen) => {
   return (isGreen ? "#0F0" : "#F00");

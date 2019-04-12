@@ -11,9 +11,7 @@ class GetAllUser extends Component {
       })
       .then((response) => response.json())
       .then((responseJson) => {
-         //console.log(responseJson[0].address);
          this.setState({
-            //data: responseJson[0].address
             data: responseJson
          })
          
